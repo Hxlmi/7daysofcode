@@ -1,0 +1,59 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding : 1rem 0;
+}
+
+/* Div logo */
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__imagem {
+    margin-right: 0.2em;
+}
+
+.logo__titulo {
+    color: var(--logo);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Nav Páginas */
+.paginas__lista {
+    display: flex;
+    gap: 32px;
+    margin-right: 2rem;
+}
+
+.p-lista__link {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+    padding: 1em 0;
+    /* background: #000; */
+}
+
+/* Div Login */
+
+.login__btn {
+    /* background: #000; */
+    padding: .8em;
+    text-decoration: none;
+}
+
+.login__entrar {
+    color: var(--text);
+}
+
+.login__cadastrar {
+    padding: .75rem 1rem;
+    color: var(--body-bg);
+    background: var(--main);
+    border-radius: 8px;
+    margin-left: 1em;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: 1px solid var(--main);
+}

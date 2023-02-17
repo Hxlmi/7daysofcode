@@ -1,0 +1,25 @@
+/* sobre */
+.sobre {
+    text-align: center;
+    padding: 7rem;
+}
+
+
+.sobre__subtitulo {
+    color: var(--main);
+    font-weight: 600;
+    
+}
+
+.sobre__titulo {
+    color: var(--title);
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 1.5rem 0 2.25rem;
+}
+
+.sobre__texto {
+    color: var(--text);
+    font-size: 20px;
+    line-height: 30px;
+}
