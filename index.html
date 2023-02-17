@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
-        <header class="nav">
-            <img src="images/Logo.svg" alt="Logo da Empresa">
+        <header class="cabecalho">
+            <!-- <img src="images/Logo.svg" alt="Logo da Empresa">
             <nav class="nav__paginas">
                 <ul class="paginas__lista">
                     <li class="p-lista__item"><a href="#" class="p-lista__link">Home</a></li>
@@ -21,7 +21,21 @@
             <div class="nav__login">
                 <a href="#" class="login__entrar login__btn">Entrar</a>
                 <a href="#" class="login__cadastrar login__btn">Cadastrar</a>
-            </div>
+            </div> -->
+
+            <nav class="nav">
+                <img src="images/Logo.svg" alt="Logotipo da empresa OptimusTech">
+                <ul class="lista__paginas">
+                    <li class="paginas__item">Home<a href="#" class="paginas__link"></a></li>
+                    <li class="paginas__item">Produtos<a href="#" class="paginas__link"></a></li>
+                    <li class="paginas__item">Recursos<a href="#" class="paginas__link"></a></li>
+                    <li class="paginas__item">Sobre nós<a href="#" class="paginas__link"></a></li>
+                </ul>
+                <div class="botoes">
+                    <button>Entrar</button>
+                    <button class="cadastrar">Cadastrar</button>
+                </div>
+            </nav>
         </header>
         <main class="conteudo">
             <section class="sobre">
@@ -125,7 +139,7 @@
             <h2 class="rodape__titulo">Acompanhe as nossas oportunidades</h2>
             <p class="rodape__texto">Seja o primeiro a saber quando novas vagas serão abertas!</p>
             <input type="email" name="cad-email" id="cad-email" placeholder="Seu e-mail" class="rodape__email">
-            <button type="submit" class="login__cadastrar">Cadastrar</button>
+            <button type="submit" class="rodape__cadastrar cadastrar">Cadastrar</button>
             <p class="copyright">&copy;2022 OptimusTech. Todos os direitos reservados.</p>
         </footer>
     </body>
